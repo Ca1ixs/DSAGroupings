@@ -39,9 +39,9 @@ class Employee {
         System.out.println("Department: " + department);
         System.out.println("Rank: " + rank);
         System.out.printf("Gross Pay: P" +"%.2f%n", grossPay);
-        System.out.println("Total Hours per Month: " + totalHoursPerMonth);
+        System.out.println("Total Hours per Month: " + totalHoursPerMonth + " Hours");
         System.out.printf("Hourly Rate: P" + "%.2f%n",hourlyRate);
-        System.out.println("Absences: " + absences);
+        System.out.println("Absences: " + absences + " Hours");
         System.out.printf("Total Deductions: P" +"%.2f%n",totalDeductions);
         System.out.printf("Withholding Tax: P" +"%.2f%n",withHoldingTax);
     	System.out.println("\n======================================");
